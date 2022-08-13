@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .cont{
+        background: rgb(70,136,211);
+        background: linear-gradient(132deg, rgba(70,136,211,1) 12%, rgba(123,86,183,1) 93%);
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 700px;
+        display: flex;
+
+      }
+      p{
+        line-height: 30px;
+      }
+      .main{
+        width: 30%;
+        margin: auto;
+        height: 600px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+      }
+      h2{
+        text-align: center;
+        font-size: 35px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        color: #000000;
+      }
+      #login{
+        width: 300px;
+        height: 250px;
+        margin-top: 30px;
+      }
+      #email,#password{
+        width: 291px;
+        height: 40px;
+        margin: 15px 0px;
+      }
+      input[type=email],input[type=password]{
+        font-size: 16px;
+        padding-left: 8px;
+        border:none;
+        border-bottom: 2px solid #ADADAD;
+        outline: none;
+      }
+      #submit {
+        background: rgb(70,136,211);
+        background: linear-gradient(132deg, rgba(70,136,211,1) 12%, rgba(123,86,183,1) 93%);
+        color: white;
+        width: 300px;
+        height: 55px;
+        border: none;
+        margin-top: 30px;
+        font-size: 16px;
+      }
+      .main>div>p{
+        text-align: center;
+        color: #929FAC;
+      }
+      a{
+        color: #477396;
+        text-decoration: none;
+      }
+      .main>div{
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">
+    <div class="main">
+      <div>
+        <h2>Login</h2>
+        <form action="" id="login">
+          <input type="email" name="email" id="email" placeholder="Email" /><br>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          /><br>
+          <input type="submit" value="Login" id="submit" />
+        </form>
+        <p>Forget <a href="#">Password?</a></p>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
