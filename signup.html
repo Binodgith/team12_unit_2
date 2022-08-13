@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .cont{
+        background: white;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 600px;
+        display: flex;
+
+      }
+      .main{
+        width: 32%;
+        margin: auto;
+        height: 530px;
+        background-color: #48C9B0;
+        display: flex;
+        justify-content: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+      p{
+        text-align: center;
+        font-size: 35px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-bottom: 20px;
+        font-weight: 100;
+        color: #F2F2F2;
+      }
+      #signM{
+        width: 300px;
+        height: 250px;
+        margin-bottom: 15px;
+      }
+      #name,#org,#email{
+        width: 300px;
+        height: 58px;
+        border: none;
+      }
+      input[type=email],input[type=text]{
+        font-size: 14px;
+        padding-left: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border:none;
+        border-bottom: 2px solid #ADADAD;
+        margin: 10px 0px;
+        outline: none;
+      }
+      #sign-up,#return{
+        background: #25A589;
+        color: white;
+        width: 300px;
+        height: 55px;
+        border: none;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      a{
+        color: #477396;
+        text-decoration: none;
+      }
+      .main>div{
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">
+    <div class="main">
+      <div>
+        <p>- Visitor -</p>
+        <form action="" id="signM">
+          <input type="text" name="name" id="name" placeholder="Full name" /><br>
+          <input type="email" name="email" id="email" placeholder="Email" /><br>
+          <input
+            type="text"
+            name="Organization"
+            id="org"
+            placeholder="Organization"
+          /><br>
+          <input type="submit" value="SIGN UP" id="sign-up" /><br>
+          <input type="submit" value="RETURN" id="return" />
+        </form>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
